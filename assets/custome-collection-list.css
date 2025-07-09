@@ -34,6 +34,7 @@
 
 .collection-list-wrapper .card__heading a {
     font-size: 2.25rem;
+    font-weight: 300;
 }
 
 .collection-list-wrapper .card__heading a span {
