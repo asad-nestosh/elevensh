@@ -317,8 +317,8 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/storeabudhabi.webp",
-            "caption": "",
-            "heading": "Dubai",
+            "caption": "Dubai",
+            "heading": "",
             "text": "<p>ELEVENISH Dubai Showroom is situated at the heart of Jumeirah, at Majlis Ghorfat Um Al Sheif, the summer Majlis of Sheikh Rashid Bin Said Al Maktoum, Dubai Founder. Our showroom showcases edits that highlight the latest collection of ELEVENISH.</p><p><a href=\"https://elevenish.com/showroom/\">Explore All</a></p>",
             "button_label": "",
             "button_link": ""
@@ -328,8 +328,8 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/storedubai.webp",
-            "caption": "",
-            "heading": "Abu Dhabi",
+            "caption": "Abu Dhabi",
+            "heading": "",
             "text": "<p>ELEVENISH Dubai Showroom is situated at the heart of Jumeirah, at Majlis Ghorfat Um Al Sheif, the summer Majlis of Sheikh Rashid Bin Said Al Maktoum, Dubai Founder. Our showroom showcases edits that highlight the latest collection of ELEVENISH.</p><p><a href=\"https://elevenish.com/showroom/\">Explore All</a></p>",
             "button_label": "",
             "button_link": ""
