@@ -197,6 +197,7 @@
   font-size: 1.4rem;
   padding: 0 1.75rem 0 0;
   margin-bottom: 1.5rem;
+  font-weight: 600;
 }
 
 .facets__summary .svg-wrapper {
@@ -224,10 +225,10 @@
   transition: text-decoration var(--duration-short) ease;
 }
 
-.facets__summary:hover .facets__summary-label {
+/* .facets__summary:hover .facets__summary-label {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
-}
+} */
 
 .facets__and-helptext {
   color: rgba(var(--color-foreground), 0.5);
@@ -442,12 +443,24 @@
 }
 
 .facet-checkbox {
-  padding: 1rem 2rem 1rem 0;
+  padding: 8px 0 0 0;
   flex-grow: 1;
   position: relative;
   font-size: 1.4rem;
   display: flex;
   word-break: break-word;
+  align-items: center;
+}
+
+.facet-checkbox .facet-checkbox__text-label,
+.facet-checkbox .facet-checkbox__text {
+  padding: 0;
+  font-size: 12px;
+  color: #000;
+}
+
+.facet-checkbox .facet-checkbox__text:hover {
+  opacity: 0.7;
 }
 
 /* Hover, active, and focus states */

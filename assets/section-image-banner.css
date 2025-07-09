@@ -490,3 +490,9 @@
     color: currentColor;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .banner__media {
+    min-height: 500px;
+  }
+}

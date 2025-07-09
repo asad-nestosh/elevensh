@@ -1,0 +1,68 @@
+.collection-list-wrapper .collection-list-title {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: var(--font-body-family);
+    color: #000000;
+}
+
+.collection-list-wrapper .card-wrapper .card--standard {
+    border: none;
+}
+
+.center.collection-list-view-all.scroll-trigger.animate--slide-in {
+    position: absolute;
+    top: 17px;
+    right: 3%;
+}
+
+.center.collection-list-view-all.scroll-trigger.animate--slide-in a {
+    border-radius: 3px;
+    padding: 10px 22px;
+}
+
+.center.collection-list-view-all.scroll-trigger.animate--slide-in a {
+    color: white;
+}
+.center.collection-list-view-all.scroll-trigger.animate--slide-in a::after {
+    display: none;
+}
+
+.collection-list__item .card__heading a:hover {
+    color: black;
+}
+
+.collection-list-wrapper .card__heading a {
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+
+.collection-list-wrapper .card__heading a span {
+    margin-left: 10px;
+}
+
+.collection-list-wrapper .card__heading a span svg {
+    height: 25px;
+    width: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .collection-list-wrapper .collection-list-title {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .collection-list-wrapper .title-wrapper-with-link {
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+
+    .center.collection-list-view-all.scroll-trigger.animate--slide-in {
+        position: unset;
+    }
+
+    .collection-list-wrapper .card__heading a {
+        font-size: 16px;
+    }
+}

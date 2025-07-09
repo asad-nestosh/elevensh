@@ -1,0 +1,96 @@
+@media only screen and (min-width: 750px) {
+    .slider-mobile-gutter .multicolumn-list__item.grid__item {
+        border-right: 1px solid rgb(41 41 41 / 50%);
+    }
+
+    .slider-mobile-gutter .multicolumn-list__item.grid__item:last-of-type {
+        border-right: none;
+    }
+
+    .slider-mobile-gutter .multicolumn-list__item.grid__item .multicolumn-card__info .inline-richtext {
+        color: rgb(15, 15, 15);
+        font-family: var(--font-body-family);
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .slider-mobile-gutter .multicolumn-list__item.grid__item {
+        border-bottom: 1px solid rgb(41 41 41 / 50%);
+    }
+
+    .slider-mobile-gutter .multicolumn-list__item.grid__item:last-of-type {
+        border-bottom: none;
+    }
+
+    .slider-mobile-gutter .multicolumn-list__item.grid__item .multicolumn-card__info .inline-richtext {
+        color: rgb(15, 15, 15);
+        font-family: var(--font-body-family);
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+}
+
+
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent p {
+    color: black;
+}
+
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent > p {
+    text-transform: capitalize !important;
+    font-weight: 300 !important;
+    width: auto !important;
+    line-height: 1.2 !important;
+    margin-bottom: 16px;
+}
+
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent > .image-with-text__text.rte.body {
+    font-size: var(--base-font-size);
+    font-family: var(--base-font-family);
+    font-weight: 300;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent .button.button--secondary {
+    color: black;
+}
+
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent .button.button--secondary::before {
+    content: "";
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: black;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.75s;
+    border-radius: 3px;
+}
+
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent:hover,
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent:focus {
+    color: white;
+}
+
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent .button.button--secondary::after {
+    display: none;
+}
+
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent .button.button--secondary:hover,
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent .button.button--secondary:focus {
+    color: white;
+}
+
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent .button.button--secondary:hover::before,
+.image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent .button.button--secondary:focus::before {
+    transform: scaleX(1);
+}
