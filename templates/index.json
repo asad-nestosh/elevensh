@@ -308,15 +308,51 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_q9byK8": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "t:sections.custom-liquid.presets.name",
+    "multirow_EDMDkc": {
+      "type": "multirow",
+      "blocks": {
+        "row_MHhAyQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/storeabudhabi.webp",
+            "caption": "",
+            "heading": "Dubai",
+            "text": "<p>ELEVENISH Dubai Showroom is situated at the heart of Jumeirah, at Majlis Ghorfat Um Al Sheif, the summer Majlis of Sheikh Rashid Bin Said Al Maktoum, Dubai Founder. Our showroom showcases edits that highlight the latest collection of ELEVENISH.</p><p><a href=\"https://elevenish.com/showroom/\">Explore All</a></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_KkgeHa": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/storedubai.webp",
+            "caption": "",
+            "heading": "Abu Dhabi",
+            "text": "<p>ELEVENISH Dubai Showroom is situated at the heart of Jumeirah, at Majlis Ghorfat Um Al Sheif, the summer Majlis of Sheikh Rashid Bin Said Al Maktoum, Dubai Founder. Our showroom showcases edits that highlight the latest collection of ELEVENISH.</p><p><a href=\"https://elevenish.com/showroom/\">Explore All</a></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_MHhAyQ",
+        "row_KkgeHa"
+      ],
+      "name": "t:sections.multirow.presets.name",
       "settings": {
-        "custom_liquid": "<section class=\"main-section home-section-eight py-0 scrollme\">\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-6 mb-4 mb-lg-0\">\n\t\t\t\t<div class=\"sec8Wrap\">\n\t\t\t\t\t<div class=\"row g-0 align-items-center\">\n\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t<img src=\"https://elevenish.com/wp-content/uploads/2024/09/storedubai.webp\" alt=\"*\" class=\"w-100\">\n\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t<article>\n\t\t\t\t\t\t\t\t<h4 class=\"mb-3\">Dubai</h4>\n\t\t\t\t\t\t\t\t<p>ELEVENISH Dubai Showroom is situated at the heart of Jumeirah, at Majlis Ghorfat Um Al Sheif, the summer Majlis of Sheikh Rashid Bin Said Al Maktoum, Dubai Founder.\nOur showroom showcases edits that highlight the latest collection of ELEVENISH.</p>\n\t\t\t\t\t\t\t\t<a href=\"https://elevenish.com/showroom/\" class=\"btn\">Explore All<strong><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1 5L9 5\" stroke=\"white\" stroke-linecap=\"round\"></path><path d=\"M5 1L9 5L5 9\" stroke=\"white\" stroke-linecap=\"round\"></path></svg></strong></a>\n\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-6\">\n\t\t\t\t<div class=\"sec8Wrap\">\n\t\t\t\t\t<div class=\"row g-0 align-items-center\">\n\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t<img src=\"https://elevenish.com/wp-content/uploads/2024/09/storeabudhabi.webp\" alt=\"*\" class=\"w-100\">\n\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t<article>\n\t\t\t\t\t\t\t\t<h4 class=\"mb-3\">Abu Dhabi</h4>\n\t\t\t\t\t\t\t\t<p>ELEVENISH Abu Dhabi showroom is located at Avenue at Etihad Towers. The space is an exclusive showcase of ELEVENISH premium collection. It features established local designers offering a wide selection of evening and formal abayas, Mkhawar and dresses, Jewelry. \n\n\n</p>\n\t\t\t\t\t\t\t\t<a href=\"javascript:;\" class=\"btn\">Explore All<strong><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1 5L9 5\" stroke=\"white\" stroke-linecap=\"round\"></path><path d=\"M5 1L9 5L5 9\" stroke=\"white\" stroke-linecap=\"round\"></path></svg></strong></a>\n\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>\n<style>.main-section {\n    padding: 4rem 0;\n    position: relative;\n}\n\n.main-heading {\n    margin-bottom: 1.5rem;\n}\n\n.main-heading h2 {\n    margin: 0;\n}\n\n.main-section p {\n    line-height: 1.75;\n    margin-bottom: 1.5rem\n}\n\n.btn {\n    position: relative;\n    font-family: var(--base-font-family);\n    color: #111;\n    border: 0;\n    border-radius: 0;\n    font-size: var(--base-font-size);\n    padding: 0.625rem 1.367rem;\n    background: transparent;\n    transition: 0.75s;\n    line-height: 1;\n    display: inline-flex;\n    align-items: center;\n    gap: 0.75rem;\n    z-index: 1;\n    font-weight: 300\n}\n\n.btn::before {\n    content: '';\n    position: absolute;\n    inset: 0;\n    background: #111;\n    width: 100%;\n    height: 100%;\n    border-radius: 3px;\n    z-index: -1;\n    transition: 0.75s;\n    clip-path: circle(10% at 77.5% 50%);\n    /*opacity: 0;*/\n}\n\n.btn strong {\n    width: 1.25rem;\n    height: 1.25rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    position: relative;\n    z-index: 1\n}\n\n.btn strong::before {\n    content: '';\n    position: absolute;\n    inset: 0;\n    /*background: #111;*/\n    border-radius: 50%;\n    z-index: -1;\n    transition: 0.75s;\n    transform-origin: top;\n    transform: rotateX(90deg);\n}\n\n.btn strong svg path {\n    transition: 0.75s\n}\n\n.white-btn::before {\n    background: #fff\n}\n\n.btn2 {\n    position: relative;\n    padding-bottom: 0.75rem;\n    text-transform: uppercase;\n    font-size: 1.125rem;\n    display: inline-block;\n    line-height: 1\n}\n\n.btn2::before {\n    content: '';\n    position: absolute;\n    inset: auto 0 0;\n    background: #fff;\n    width: 100%;\n    height: 1px;\n    transition: 0.75s\n}\n\n.btn2:hover::before {\n    transform: scaleX(0);\n}\n\n.sec-font {\n    font-family: var(--base-font-family);\n}\n\n.top-head {\n    background: #000;\n}\n\n.mid-head-inner {\n    border-bottom: 1px solid rgb(73 72 73 / 20%)\n}\n</style>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "video_RrdL4g": {
@@ -399,7 +435,7 @@
     "featured_collection_cNcKfy",
     "featured_collection_PVhWVy",
     "multirow_8DEYCB",
-    "custom_liquid_q9byK8",
+    "multirow_EDMDkc",
     "video_RrdL4g",
     "multicolumn_9MDz7Y"
   ]
