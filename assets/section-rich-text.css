@@ -51,7 +51,7 @@
 }
 
 .rich-text__blocks > * + * {
-  margin-top: 2rem;
+  margin-top: 24px;
 }
 
 .rich-text__blocks > * + a {
@@ -83,4 +83,26 @@
 
 .rich-text__blocks.right .rich-text__buttons {
   justify-content: flex-end;
+}
+
+.rich-text__blocks .rich-text__heading.rte {
+  font-size: 34px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: rgb(15, 15, 15) !important;
+}
+
+.rich-text__blocks .rich-text__text.rte p {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: normal;
+  max-width: 91%;
+  margin: auto;
+  color: rgb(41, 41, 41) !important;
+}
+
+@media screen and (max-width: 750px) {
+  .rich-text__blocks .rich-text__heading.rte {
+    font-size: 20px;
+  }
 }
