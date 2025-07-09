@@ -48,3 +48,36 @@
     margin: 0 0 0 1rem;
   }
 }
+
+
+
+/* Custom styling */
+
+.newsletter {
+      background: #F9F7F6;
+      padding-top: 0;
+      padding-bottom: 0;
+}
+
+.custom-newletter-row {
+  border-bottom: .1rem solid rgba(18, 18, 18, .08);
+  padding-top: 30px;
+  padding-bottom: 39px;
+}
+
+@media screen and (min-width: 750px) {
+  .custom-newletter-row {
+    padding-top: 40px;
+    padding-bottom: 52px;
+  }
+}
+
+.newsletter__logo {
+  width: 313px;
+}
+.inline-richtext.custom-richtext {
+  font-size: 19px;
+  line-height: 22px;
+  color: #292929;
+  margin-bottom: 4px;
+}
